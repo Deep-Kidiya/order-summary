@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.background img {
+    position: fixed;
+    width: 1680px;
+    top: 0;
+    left: 0;
+    z-index: -9;
+}
+
+.main {
+    box-shadow: 0px 0px 43px -10px rgb(0 0 0 / 45%);
+    background: #fff;
+    border-radius: 30px;
+    position: relative;
+  }
+
+.main .hero img {
+    height: 220px;
+    padding: 0;
+    margin: 0;
+    border-radius: 20px 20px 0 0;
+}
+
+.main .text h1 {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 900;
+    margin-top: 40px;
+}
+
+.main .text p {
+    margin-top: 20px;
+    font-size: 17px;
+    text-align: center;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.main .box {
+    align-items: center;
+    padding: 13px;
+    margin: 25px 49px 0 46px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    background: hsl(225, 100%, 98%);
+}
+
+.main .box .image {
+    display: flex;
+    align-items: center;
+}
+
+.image img {
+    width: 45px;
+    height: 45px;
+}
+
+.image h1 {
+    margin-left: 16px;
+    font-size: 17px;
+    font-weight: 700;}
+
+.image span {
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.box a {
+    font-size: 17px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    cursor: pointer
+}
+
+.box a:hover {
+    color: hsl(245, 81%, 71%);
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn button {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+    padding: 11px 90px;
+    border: 2px solid transparent;
+    color: #fff;
+    background: hsl(228, 67%, 44%);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+}
+
+.btn button:hover {
+    border-color: hsl(228, 58%, 60%);
+    background: hsl(228, 58%, 60%);
+}
+
+.btn-order {
+    padding: 35px 50px 50px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-order a {
+    color: #000;
+    font-size: 18px;
+    font-weight: 900;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-order a:hover {
+    color: rgb(114, 112, 112);
+}
+
+
+@media (max-width:530px) {
+    .background img {
+        position: fixed;
+        width: 1380px;
+        top: 0;
+        left: 0;
+        z-index: -9;
+    }
+
+    .background img {
+        position: fixed;
+        width: 1680px;
+        top: 0;
+        left: 0;
+        z-index: -9;
+    }
+    
+    .main {
+        box-shadow: 0px 0px 43px -10px rgb(0 0 0 / 45%);
+        background: #fff;
+        border-radius: 30px;
+        position: relative;
+      }
+    
+    .main .hero img {
+        height: 160px;
+        padding: 0;
+        margin: 0;
+        border-radius: 20px 20px 0 0;
+    }
+    
+    .main .text h1 {
+        text-align: center;
+        font-size: 22px;
+        font-weight: 900;
+        margin-top: 40px;
+    }
+    
+    .main .text p {
+        margin-top: 20px;
+        font-size: 14px;
+        text-align: center;
+        font-weight: 500;
+        color: hsl(224, 23%, 55%);
+    }
+    
+    .main .box {
+        align-items: center;
+        padding: 13px;
+        margin: 25px 49px 0 46px;
+        display: flex;
+        border-radius: 10px;
+        justify-content: space-between;
+        background: hsl(225, 100%, 98%);
+    }
+    
+    .main .box .image {
+        display: flex;
+        align-items: center;
+    }
+    
+    .image img {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .image h1 {
+        margin-left: 16px;
+        font-size: 12px;
+        font-weight: 700;}
+    
+    .image span {
+        font-weight: 500;
+        color: hsl(224, 23%, 55%);
+    }
+    
+    .box a {
+        font-size: 10px;
+        text-decoration: none;
+        font-weight: 700;
+        transition: all 0.3s ease;
+        cursor: pointer
+    }
+    
+    .box a:hover {
+        color: hsl(245, 81%, 71%);
+    }
+    
+    .btn {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .btn button {
+        font-size: 13px;
+        font-weight: 700;
+        margin-top: 20px;
+        padding: 8px 60px;
+        border: 2px solid transparent;
+        color: #fff;
+        background: hsl(228, 67%, 44%);
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border-radius: 10px;
+    }
+    
+    .btn button:hover {
+        border-color: hsl(228, 58%, 60%);
+        background: hsl(228, 58%, 60%);
+    }
+    
+    .btn-order {
+        padding: 35px 50px 50px 50px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .btn-order a {
+        color: #000;
+        font-size: 14px;
+        font-weight: 900;
+        text-decoration: none;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    
+    .btn-order a:hover {
+        color: rgb(114, 112, 112);
+    }
+}
